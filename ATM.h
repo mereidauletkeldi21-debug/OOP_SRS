@@ -8,8 +8,8 @@
 
 class ATM {
 private:
-    Bank& bank_;              // Банкомат использует банк
-    TransactionLog log_;      // Композиция: журнал принадлежит банкомату
+    Bank& bank_;              
+    TransactionLog log_;      
 
 public:
     explicit ATM(Bank& bank);
